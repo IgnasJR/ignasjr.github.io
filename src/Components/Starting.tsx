@@ -1,8 +1,6 @@
-const Starting = ({startingRef, scrollTo} : {startingRef: any, scrollTo: (index:number) => void}) => {
-    // todo: add a proper type for startingRef
+const Starting = ({ startingRef, scrollTo }: { startingRef: React.RefObject<HTMLDivElement>, scrollTo: (index: number) => void }) => {
     return (
-        <div ref={startingRef}>
-            <div className='snap-center h-screen flex justify-center items-center flex-col'>
+        <div ref={startingRef} className='snap-start h-screen flex justify-center items-center flex-col'>
                 <h1 className='text-center w-3/4 font-mont sm:text-7xl text-5xl font-medium text-white'>
                     Hello, I'm
                 <span className='text-purple-600'> Ignas</span>
@@ -23,9 +21,7 @@ const Starting = ({startingRef, scrollTo} : {startingRef: any, scrollTo: (index:
                     <span className='absolute inset-0 border-2 border-purple-700 rounded-2xl transform scale-0 group-hover:scale-150 group-hover:opacity-0 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]'></span>
                     <span className='absolute inset-0 border-2 border-purple-700 rounded-2xl transform scale-0 group-hover:scale-150 group-hover:opacity-0 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] delay-75'></span>
                 </button>
-
             </div>
-        </div>
     )
 }
 export default Starting

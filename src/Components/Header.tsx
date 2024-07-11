@@ -1,8 +1,8 @@
-import { useState } from "react";
-
-function Header({ isSticky, scrollTo }: { isSticky: boolean, scrollTo: (index:number) => void}) {
-    const [activeElement, setActiveElement] = useState<number>(0);
-
+const Header = ({ isSticky, scrollTo, activeElement, setActiveElement}: { 
+    isSticky: boolean, 
+    scrollTo: (index:number) => void, 
+    activeElement: number, 
+    setActiveElement: (index:number) => void}) => {
     const menuItems = ["START", "PROJECTS", "CONTACT ME"];
 
     const goToPart = (index: number) => {
