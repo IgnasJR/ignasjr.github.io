@@ -11,9 +11,9 @@ const Header = ({ isSticky, scrollTo, activeElement, setActiveElement}: {
     };
 
     return (
-        <header className={`bg-slate-800 w-full h-14 text-white ${isSticky ? 'top-0 sticky' : ""}`}>
+        <header className={`bg-slate-800 z-50 w-full h-14 text-white ${isSticky ? 'top-0 sticky' : ""}`}>
             <nav className="h-full w-full">
-                <ul className="h-full w-full flex flex-row items-center justify-end">
+                <ul className="h-full w-full flex flex-row items-center sm:justify-end justify-center">
                     {menuItems.map((item, index) => (
                         <li
                             key={index}

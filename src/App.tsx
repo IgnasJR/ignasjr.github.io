@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Starting from './Components/Starting';
-import AboutPage from './Components/AboutPage';
-import Contact from './Components/Contact';
+import Header from './Parts/Header';
+import Starting from './Parts/Starting';
+import AboutPage from './Parts/AboutPage';
+import Contact from './Parts/Contact';
 
 function App() {
   const [isSticky, setIsSticky] = useState<boolean>(false);
