@@ -44,21 +44,19 @@ function App() {
       case 2:
         contactRef.current?.scrollIntoView({ behavior: 'smooth' });
         break;
-
       default:
         break;
     }
   };
 
   return (
-    <div className="bg-slate-900">
-      
-      <Starting startingRef={startingRef} scrollTo={scrollTo}/>
+    <div className='snap-y snap-mandatory h-screen overflow-y-scroll' style={{background: 'linear-gradient(90deg, rgba(10,7,65,1) 0%, rgba(25,23,107,1) 35%, rgba(1,37,56,1) 100%)' }}>
+      <Starting startingRef={startingRef} scrollTo={scrollTo} />
       <Header isSticky={isSticky} scrollTo={scrollTo} />
-      <div ref={projectsRef} className='h-screen'>
+      <div ref={projectsRef} className='snap-center h-screen'>
         <h1>Hello World</h1>
       </div>
-      <div ref={contactRef} className='h-screen'>
+      <div ref={contactRef} className='snap-start h-screen'>
         <h1>Hello World</h1>
       </div>
     </div>
