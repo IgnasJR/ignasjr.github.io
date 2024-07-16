@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +46,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   },
-  "homepage": "https://ignasjr.github.io/portfolio-web"
+  "homepage": "https://ignasjr.github.io"
 }
