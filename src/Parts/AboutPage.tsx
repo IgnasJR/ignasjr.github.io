@@ -9,9 +9,9 @@ import javascriptLogo from '../Images/Unofficial_JavaScript_logo_2.svg';
 
 const AboutPage = ({ projectsRef }: { projectsRef: React.RefObject<HTMLDivElement> }) => {
   return (
-    <div ref={projectsRef} className='snap-start sm:pt-20 sm:h-full pt-16 pb-14 text-center content-center'>
+    <div ref={projectsRef} className='snap-start sm:pt-20 sm:h-full pt-16 pb-16 text-center content-center'>
       <HighlightHeading text='About me' />
-      <div className='sm:grid grid-cols-2 items-center pt-5'>
+      <div className='sm:grid grid-cols-2 items-center'>
         <div className='w-3/4 mx-auto text-white font-mont'>
           <p className='sm:text-2xl'>
             I am a full stack web developer from Lithuania. I have a passion for web development and love to create websites and web applications. I have experience with React, Node.js, MySQL, Tailwind and more. I am always eager to learn new technologies and improve my skills.
@@ -30,7 +30,7 @@ const AboutPage = ({ projectsRef }: { projectsRef: React.RefObject<HTMLDivElemen
             <img src={mySqlLogo} alt="MySQL" className='sm:w-32 sm:h-32 h-24'/>
           </div>
         </div>
-      </div>
+      </div>      
     </div>
   );
 }

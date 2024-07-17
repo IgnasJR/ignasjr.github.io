@@ -4,6 +4,7 @@ import Header from './Parts/Header';
 import Starting from './Parts/Starting';
 import AboutPage from './Parts/AboutPage';
 import Contact from './Parts/Contact';
+import Projects from './Parts/Projects';
 
 function App() {
   const [isSticky, setIsSticky] = useState<boolean>(false);
@@ -63,10 +64,11 @@ function App() {
   };
 
   return (
-    <div className='snap-y snap-mandatory h-screen overflow-y-scroll' style={{ background: 'linear-gradient(90deg, rgba(10,7,65,1) 0%, rgba(25,23,107,1) 35%, rgba(1,37,56,1) 100%)' }}>
+    <div className='snap-y snap-mandatory h-screen overflow-y-scroll' style={{ background: 'linear-gradient(180deg, rgba(10,7,65,1) 0%, rgba(13,12,57,1) 0%, rgba(4,37,54,1) 100%)'} }>
       <Starting startingRef={startingRef} scrollTo={scrollTo} />
       <Header isSticky={isSticky} scrollTo={scrollTo} activeElement={activeElement} setActiveElement={setActiveElement} />
       <AboutPage projectsRef={projectsRef} />
+      <Projects contactRef={contactRef} />
       <Contact contactRef={contactRef} />
     </div>
   );

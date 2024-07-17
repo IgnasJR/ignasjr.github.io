@@ -11,10 +11,10 @@ const HighlightHeading = ({ text } : {text:string}) => {
     }, []);
   
     return (
-        <div className="relative flex items-center justify-center">
+        <div className="relative flex items-center justify-center mb-5">
           <h2 ref={textRef} className="text-white text-4xl font-mont sm:text-7xl font-medium z-20">{text}</h2>
           <span
-            className="absolute bottom-1 h-3 bg-purple-700 z-10"
+            className="absolute bottom-1 h-4 bg-purple-700 z-10"
             style={{
               width: `${(2 / 3) * textWidth}px`,
               transform: 'skewX(-20deg)',
