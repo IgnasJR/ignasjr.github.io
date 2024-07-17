@@ -3,7 +3,7 @@ const Header = ({ isSticky, scrollTo, activeElement, setActiveElement}: {
     scrollTo: (index:number) => void, 
     activeElement: number, 
     setActiveElement: (index:number) => void}) => {
-    const menuItems = ["START", "PROJECTS", "CONTACT ME"];
+    const menuItems = ["ABOUT", "PROJECTS", "CONTACT ME"];
 
     const goToPart = (index: number) => {
         setActiveElement(index);

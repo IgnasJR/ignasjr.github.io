@@ -7,9 +7,9 @@ import nodeLogo from '../Images/Node.js_logo.svg';
 import javascriptLogo from '../Images/Unofficial_JavaScript_logo_2.svg';
 
 
-const AboutPage = ({ projectsRef }: { projectsRef: React.RefObject<HTMLDivElement> }) => {
+const AboutPage = ({ aboutRef }: { aboutRef: React.RefObject<HTMLDivElement> }) => {
   return (
-    <div ref={projectsRef} className='snap-start sm:pt-20 sm:h-full pt-16 pb-16 text-center content-center'>
+    <div ref={aboutRef} className='snap-start sm:pt-20 sm:h-full pt-16 pb-16 text-center content-center'>
       <HighlightHeading text='About me' />
       <div className='sm:grid grid-cols-2 items-center'>
         <div className='w-3/4 mx-auto text-white font-mont'>

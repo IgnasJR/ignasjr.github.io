@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 
-const Starting = ({ startingRef, scrollTo }: { startingRef: React.RefObject<HTMLDivElement>, scrollTo: (index: number) => void }) => {
+const Starting = ({ startingRef, scrollTo }: {startingRef: React.RefObject<HTMLDivElement>, scrollTo: (index: number) => void }) => {
     const buttonRef = useRef<HTMLButtonElement>(null);
 
     const handleClick = () => {
-        scrollTo(1);
+        scrollTo(0);
         setTimeout(() => {
             if (buttonRef.current) {
                 buttonRef.current.blur();
@@ -13,7 +13,7 @@ const Starting = ({ startingRef, scrollTo }: { startingRef: React.RefObject<HTML
     };
 
     return (
-        <div ref={startingRef} className='snap-start h-screen flex justify-center items-center flex-col'>
+        <div className='snap-start h-screen flex justify-center items-center flex-col'>
             <h1 className='text-center w-3/4 font-mont sm:text-7xl text-5xl font-medium text-white'>
                 Hello, I'm
                 <span className='text-purple-600'> Ignas</span>.
