@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96d70669.css",
+    "main.js": "/static/js/main.ce2d746b.js",
+    "static/js/453.90a7b0b2.chunk.js": "/static/js/453.90a7b0b2.chunk.js",
+    "static/media/PlayerJR.png": "/static/media/PlayerJR.25b1b799f8c6edec0040.png",
+    "static/media/chatjr.png": "/static/media/chatjr.70cfc4c35e56986003d8.png",
+    "static/media/Node.js_logo.svg": "/static/media/Node.js_logo.d575abd5714decffaf7f5e8e1e9de93b.svg",
+    "static/media/mysql-logo-svgrepo-com.svg": "/static/media/mysql-logo-svgrepo-com.5dbd7ffb56a921cecde426cca82f0df4.svg",
+    "static/media/docker-icon.svg": "/static/media/docker-icon.4b3370139db1f18832b3fc6e77355b42.svg",
+    "static/media/github.svg": "/static/media/github.fa27a19c462807e00302cade1ea2dc81.svg",
+    "static/media/email.svg": "/static/media/email.f0cd3f54f1ba432d5326cd15192869d2.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.b9b2bbc56bec8e1af5f7f7f1d3b1bdf5.svg",
+    "index.html": "/index.html",
+    "static/media/React-icon.svg": "/static/media/React-icon.797d54abd7e9044e0f47da3ab45c3f1d.svg",
+    "static/media/Tailwind_CSS_Logo.svg": "/static/media/Tailwind_CSS_Logo.79614a5f61617ba49a0891494521226b.svg",
+    "static/media/Unofficial_JavaScript_logo_2.svg": "/static/media/Unofficial_JavaScript_logo_2.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "main.96d70669.css.map": "/static/css/main.96d70669.css.map",
+    "main.ce2d746b.js.map": "/static/js/main.ce2d746b.js.map",
+    "453.90a7b0b2.chunk.js.map": "/static/js/453.90a7b0b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d70669.css",
+    "static/js/main.ce2d746b.js"
+  ]
+}
